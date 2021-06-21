@@ -1,6 +1,7 @@
 ﻿/*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
+Dette er en test
 load dependency
 "mbit": "file:../pxt-mbit"
 */
