@@ -24,7 +24,7 @@
   "mbit_Robot.RGB_Car_Big2|block": "robot RGB light|select car light color %value",
   "mbit_Robot.Ultrasonic_Car|block": "return distance (cm)",
   "mbit_Robot.RGB_Car_Program|block": "RGB flow light",
-  "mbit_Robot.Music_Car|block": "robot music play|%index",
+  "mbit_Robot.Music_Car|block": "Spil meldoi|%index",
   "mbit_Robot.Line_Sensor|block": "tracking sensor|direct %direct|detected %value",
   "mbit_Robot.Avoid_Sensor|block": "avoid obstacle sensor|detected %value",
   "mbit_Robot.Servo_Car|block": "robot servo|index %num|angle %value",
