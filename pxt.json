@@ -14,7 +14,7 @@
         "README.md",
         "main.ts",
         "_locales/en/mbit-strings.json",
-	"_locales/da/mbit-strings.json"
+	"_locales/da-dk/mbit-strings.json"
 
     ],
     "testFiles": [
