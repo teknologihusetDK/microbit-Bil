@@ -26,7 +26,7 @@
   "mbit_Robot.RGB_Car_Program|block": "RGB flow lys",
   "mbit_Robot.Music_Car|block": "Spil melodi|%index",
   "mbit_Robot.Line_Sensor|block": "tracking sensor|direct %direct|detected %value",
-  "mbit_Robot.Avoid_Sensor|block": "avoid obstacle sensor|detected |ja%value1|nej%value2",
+  "mbit_Robot.Avoid_Sensor|block": "avoid obstacle sensor|detected %value",
   "mbit_Robot.Servo_Car|block": "Sæt servomotor| %num|til vinkel %value",
   "mbit_Robot.CarCtrl|block": "Styr robot|%index",
   "mbit_Robot.CarCtrlSpeed|block": "Styr robot|%index|med fart %speed",
