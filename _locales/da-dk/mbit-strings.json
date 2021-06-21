@@ -20,14 +20,14 @@
   "mbit_Motor.Fan|block": "fan|port %pin|speed %value",
   "mbit_Motor.Servo|block": "servo|port %pin|angle %value",
 
-  "mbit_Robot.RGB_Car_Big|block": "Vælg farve på bilens lys|rød %value1|grøn %value2|blå %value3",
-  "mbit_Robot.RGB_Car_Big2|block": "Vælg farve på bilens lys| %value",
+  "mbit_Robot.RGB_Car_Big|block": "Vælg farve på bilens lys:|rød%value1 |grøn%value2 |blå%value3",
+  "mbit_Robot.RGB_Car_Big2|block": "Vælg farve på bilens lys:| %value",
   "mbit_Robot.Ultrasonic_Car|block": "afstand (cm)",
   "mbit_Robot.RGB_Car_Program|block": "RGB flow light",
   "mbit_Robot.Music_Car|block": "Spil melodi|%index",
   "mbit_Robot.Line_Sensor|block": "tracking sensor|direct %direct|detected %value",
-  "mbit_Robot.Avoid_Sensor|block": "avoid obstacle sensor|detected %value",
-  "mbit_Robot.Servo_Car|block": "Sæt servomotor|index %num|til vinkel %value",
+  "mbit_Robot.Avoid_Sensor|block": "forhindring forude |ja%value1 |nej%value2",
+  "mbit_Robot.Servo_Car|block": "Sæt servomotor| %num|til vinkel %value",
   "mbit_Robot.CarCtrl|block": "Styr robot|%index",
   "mbit_Robot.CarCtrlSpeed|block": "Styr robot|%index|med fart %speed",
   "mbit_Robot.CarCtrlSpeed2|block": "Styr robot|%index|hjul 1 med fart %speed1|hjul 2 med fart %speed2"
