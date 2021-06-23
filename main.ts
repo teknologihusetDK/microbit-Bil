@@ -458,7 +458,7 @@ namespace mbit_Robot {
 
     export enum enColor {
 
-        //% blockId="OFF" block="off"
+        //% blockId="OFF" block="off" block.loc.da="Slukket"
         OFF = 0,
         //% blockId="Red" block="red"
         Red,
