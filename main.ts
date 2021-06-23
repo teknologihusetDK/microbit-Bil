@@ -460,19 +460,19 @@ namespace mbit_Robot {
 
         //% blockId="OFF" block="off" block.loc.da="Slukket"
         OFF = 0,
-        //% blockId="Red" block="red"
+        //% blockId="Red" block="red" block.loc.da="Rød"
         Red,
-        //% blockId="Green" block="green"
+        //% blockId="Green" block="green" block.loc.da="Grøn"
         Green,
-        //% blockId="Blue" block="blue"
+        //% blockId="Blue" block="blue" block.loc.da="Blå"
         Blue,
-        //% blockId="White" block="white"
+        //% blockId="White" block="white" block.loc.da="Hvid"
         White,
-        //% blockId="Cyan" block="cyan"
+        //% blockId="Cyan" block="cyan" block.loc.da="Cyan"
         Cyan,
-        //% blockId="Pinkish" block="magenta"
+        //% blockId="Pinkish" block="magenta" block.loc.da="Lyserød"
         Pinkish,
-        //% blockId="Yellow" block="yellow"
+        //% blockId="Yellow" block="yellow" block.loc.da="Gul"
         Yellow,
 
     }
@@ -502,24 +502,24 @@ namespace mbit_Robot {
     }
     export enum enPos {
 
-        //% blockId="LeftState" block="left state"
+        //% blockId="LeftState" block="left state" block.loc.da="venstre"
         LeftState = 0,
-        //% blockId="RightState" block="right state"
+        //% blockId="RightState" block="right state" block.loc.da="højre"
         RightState = 1
     }
 
     export enum enLineState {
-        //% blockId="White" block="white"
+        //% blockId="White" block="white" block.loc.da="hvid"
         White = 0,
-        //% blockId="Black" block="black"
+        //% blockId="Black" block="black" block.loc.da="sort"
         Black = 1
 
     }
     
     export enum enAvoidState {
-        //% blockId="OBSTACLE" block="with obstacles"
+        //% blockId="OBSTACLE" block="with obstacles" block.loc.da="med"
         OBSTACLE = 0,
-        //% blockId="NOOBSTACLE" block="without obstacles"
+        //% blockId="NOOBSTACLE" block="without obstacles" block.loc.da="uden"
         NOOBSTACLE = 1
 
     }
@@ -532,19 +532,19 @@ namespace mbit_Robot {
         S3
     }
     export enum CarState {
-        //% blockId="Car_Run" block="forward"
+        //% blockId="Car_Run" block="forward" block.loc.da="fremad"
         Car_Run = 1,
-        //% blockId="Car_Back" block="back"
+        //% blockId="Car_Back" block="back" block.loc.da="baglæns"
         Car_Back = 2,
-        //% blockId="Car_Left" block="turn left"
+        //% blockId="Car_Left" block="turn left" block.loc.da="drej til venstre"
         Car_Left = 3,
-        //% blockId="Car_Right" block="turn right"
+        //% blockId="Car_Right" block="turn right" block.loc.da="drej til højre"
         Car_Right = 4,
-        //% blockId="Car_Stop" block="stop"
+        //% blockId="Car_Stop" block="stop" block.loc.da="stop"
         Car_Stop = 5,
-        //% blockId="Car_SpinLeft" block="rotate left"
+        //% blockId="Car_SpinLeft" block="rotate left" block.loc.da="rotere mod venstre"
         Car_SpinLeft = 6,
-        //% blockId="Car_SpinRight" block="rotate right"
+        //% blockId="Car_SpinRight" block="rotate right" block.loc.da="rotere mod højre"
         Car_SpinRight = 7
     }
 
