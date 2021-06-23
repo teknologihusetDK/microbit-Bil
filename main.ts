@@ -9,7 +9,7 @@ modified by Jørgen Larsen - 23-06-2021
 
 
 
-//% color="#0014B8" weight=25 icon="\uf1d4"
+//% color="#0014B8" weight=25 icon="\uf1d4" deprecated=true
 namespace mbit_Display {
     
     export enum enColor {
