@@ -517,9 +517,9 @@ namespace mbit_Robot {
     }
     
     export enum enAvoidState {
-        //% blockId="OBSTACLE" block="with obstacles" block.loc.da="med"
+        //% blockId="OBSTACLE" block="with obstacles" block.loc.da="høj"
         OBSTACLE = 0,
-        //% blockId="NOOBSTACLE" block="without obstacles" block.loc.da="uden"
+        //% blockId="NOOBSTACLE" block="without obstacles" block.loc.da="lav"
         NOOBSTACLE = 1
 
     }
