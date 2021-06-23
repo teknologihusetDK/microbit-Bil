@@ -941,7 +941,7 @@ namespace mbit_Robot {
         control.waitMicros(100);
         switch (value) {
             case enAvoidState.OBSTACLE: {
-                serial.writeNumber(pins.analogReadPin(AnalogPin.P3))
+                //serial.writeNumber(pins.analogReadPin(AnalogPin.P3)) //Looks like forgotten debugging
                 if (pins.analogReadPin(AnalogPin.P3) < 800) {
                 
                     temp = true;
