@@ -1,14 +1,15 @@
 ﻿/*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
-Dette er en test
 load dependency
+modified by Jørgen Larsen - 23-06-2021
+
 "mbit": "file:../pxt-mbit"
 */
 
 
 
-//% color="#C814B8" weight=25 icon="\uf1d4"
+//% color="#0014B8" weight=25 icon="\uf1d4"
 namespace mbit_Display {
     
     export enum enColor {
