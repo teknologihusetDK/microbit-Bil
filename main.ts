@@ -431,7 +431,7 @@ namespace mbit_Motor {
 
 }
 
-//% color="#006400" weight=20 icon="\f6be" block="mbit_Robot" block.loc.da="RobotKat"
+//% color="#006400" weight=20 icon="\uf6be" block="mbit_Robot" block.loc.da="RobotKat"
 namespace mbit_Robot {
 
     const PCA9685_ADD = 0x41
