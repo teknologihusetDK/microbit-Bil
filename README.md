@@ -1,6 +1,6 @@
-# mbit
+# RobotKat
 
-Extension for Yahboom_mbit_en V3.0.4
+Udvidelsesmodul for DAGU RobotKat - Version 1.0
 
 ## License
 
