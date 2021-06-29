@@ -30,5 +30,5 @@
   "mbit_Robot.Servo_Car|block": "Sæt servomotor| %num|til vinkel %value",
   "mbit_Robot.CarCtrl|block": "Kør robotten |%index",
   "mbit_Robot.CarCtrlSpeed|block": "Kør robotten |%index|med hastighed %speed",
-  "mbit_Robot.CarCtrlSpeed2|block": "Kør robotten |%index|. Hjul 1 med hastighed %speed1| og hjul 2 med hastighed %speed2"
+  "mbit_Robot.CarCtrlSpeed2|block": "Kør robotten |%index|. Venstre hjul med hastighed %speed1| og højre hjul med hastighed %speed2"
 }
