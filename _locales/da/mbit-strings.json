@@ -20,7 +20,7 @@
   "mbit_Motor.Fan|block": "fan|port %pin|speed %value",
   "mbit_Motor.Servo|block": "servo|port %pin|angle %value",
 
-  "mbit_Robot.RGB_Car_Big|block": "Vælg farve på robottens lys|Rød%value1 |Grøn%value2 |Blå%value3",
+  "mbit_Robot.RGB_Car_Big|block": "Vælg farve på robottens lys: |Rød%value1 |Grøn%value2 |Blå%value3",
   "mbit_Robot.RGB_Car_Big2|block": "Vælg farve på robottens lys| %value",
   "mbit_Robot.Ultrasonic_Car|block": "afstand (cm)",
   "mbit_Robot.RGB_Car_Program|block": "NeoPixel Strip",
@@ -30,5 +30,5 @@
   "mbit_Robot.Servo_Car|block": "Sæt servomotor| %num|til vinkel %value",
   "mbit_Robot.CarCtrl|block": "Kør robotten |%index",
   "mbit_Robot.CarCtrlSpeed|block": "Kør robotten |%index|med hastighed %speed",
-  "mbit_Robot.CarCtrlSpeed2|block": "Kør robotten |%index| Hjul 1 med hastighed %speed1| Hjul 2 med hastighed %speed2"
+  "mbit_Robot.CarCtrlSpeed2|block": "Kør robotten |%index|. Hjul 1 med hastighed %speed1| og hjul 2 med hastighed %speed2"
 }
