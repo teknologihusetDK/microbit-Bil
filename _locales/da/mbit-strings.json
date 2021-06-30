@@ -31,6 +31,6 @@
   "mbit_Robot.CarCtrl|block": "Kør robotten |%index",
   "mbit_Robot.CarCtrlSpeed|block": "Kør robotten |%index|med hastighed %speed",
   "mbit_Robot.CarCtrlSpeed2|block": "Kør robotten |%index|. Venstre hjul med hastighed %speed1| og højre hjul med hastighed %speed2",
-  "mbit_Robot.init|block": "Start IR funktion på pin |%index|"
+  "mbit_Robot.init|block": "Start IR funktion på pin |%index|",
   "mbit_Robot.onPressEvent|block": "Når der trykkes på knap |%index|"
 }
