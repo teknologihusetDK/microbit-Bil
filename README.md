@@ -1,6 +1,6 @@
 # RobotKat
 
-Udvidelsesmodul for DAGU RobotKat - Version 1.0
+Udvidelsesmodul for DAGU RobotKat - Version 4.0.0
 
 Udviklere på dette udvidelsesmodul:
  - Kirsten Hagenberg

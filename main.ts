@@ -1068,7 +1068,7 @@ namespace mbit_Robot {
     }
 	
 	/**
-    * initialization
+    * Start IR funktion
     */
     //% blockId=Mbit_IR_init
     //% blockGap=20 weight=90
@@ -1079,7 +1079,7 @@ namespace mbit_Robot {
     }
   
     /**
-    * button pushed.
+    * Registrer når der trykkes på en knap
     */
     //% blockId=Mbit_IR_received_event
     //% blockGap=20 weight=89
