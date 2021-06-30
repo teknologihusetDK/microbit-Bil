@@ -12,13 +12,14 @@
     },
     "files": [
         "README.md",
-        "main.ts",
 		"shims.d.ts",
         "enums.d.ts",
         "Mbit_IR.cpp",
         "ReceiverIR.cpp",
         "ReceiverIR.h",
         "RemoteIR.h",
+		"main.ts",
+		"Mbit_IR.ts",
         "_locales/en/mbit-strings.json",
 		"_locales/da/mbit-strings.json"
 
