@@ -1066,4 +1066,26 @@ namespace mbit_Robot {
             case CarState.Car_SpinRight: Car_spinright(speed1, speed2); break;
         }
     }
+	
+	/**
+    * initialization
+    */
+    //% blockId=Mbit_IR_init
+    //% blockGap=20 weight=90
+    //% block="connect ir receiver to %pin"
+    //% shim=Mbit_IR::init
+    export function init(pin: Pins): void {
+      return
+    }
+  
+    /**
+    * button pushed.
+    */
+    //% blockId=Mbit_IR_received_event
+    //% blockGap=20 weight=89
+    //% block="on |%btn| button pressed"
+    //% shim=Mbit_IR::onPressEvent
+    export function onPressEvent(btn: RemoteButton, body:Action): void {
+      return
+    }
 }
