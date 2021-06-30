@@ -19,7 +19,6 @@
         "ReceiverIR.h",
         "RemoteIR.h",
 		"main.ts",
-		"Mbit_IR.ts",
         "_locales/en/mbit-strings.json",
 		"_locales/da/mbit-strings.json"
 
