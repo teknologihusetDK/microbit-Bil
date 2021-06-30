@@ -1,7 +1,7 @@
 {
     "name": "mbit",
-    "version": "3.0.5",
-    "description": "Extension for YahBoom m:bit V3.0.5",
+    "version": "4.0.0",
+    "description": "Driver til RobotKat fra DAGO Robotics",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -13,6 +13,12 @@
     "files": [
         "README.md",
         "main.ts",
+		"shims.d.ts",
+        "enums.d.ts",
+        "Mbit_IR.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
         "_locales/en/mbit-strings.json",
 		"_locales/da/mbit-strings.json"
 
