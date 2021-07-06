@@ -188,7 +188,7 @@ void ReceiverIR::isr_fall(void) {
                  * Set timeout for tail detection automatically.
                  */
                 timeout.detach();
-                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_NEC * 10); //Here
+                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_NEC * 5); //Here
 #endif
             } else if (RemoteIR::AEHA == data.format) {
                 work.d2 = timer.read_us();
@@ -217,7 +217,7 @@ void ReceiverIR::isr_fall(void) {
                  * Set timeout for tail detection automatically.
                  */
                 timeout.detach();
-                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_AEHA * 10);
+                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_AEHA * 5);
 #endif
             } else if (RemoteIR::SONY == data.format) {
                 work.d1 = timer.read_us();
@@ -272,7 +272,7 @@ void ReceiverIR::isr_rise(void) {
                  * By a model only?
                  * Please check a specification of your remote controller if you find a problem.
                  */
-                if (32 <= data.bitcount) {
+                if (20 <= data.bitcount) {
                     work.state = Received;
                     work.c1 = -1;
                     work.c2 = -1;
@@ -285,7 +285,7 @@ void ReceiverIR::isr_rise(void) {
                  * Set timeout for tail detection automatically.
                  */
                 timeout.detach();
-                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_SONY * 10);
+                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_SONY * 5);
 #endif
             }
             break;
