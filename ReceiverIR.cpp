@@ -217,7 +217,7 @@ void ReceiverIR::isr_fall(void) {
                  * Set timeout for tail detection automatically.
                  */
                 timeout.detach();
-                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_AEHA * 5);
+                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_AEHA * 1);
 #endif
             } else if (RemoteIR::SONY == data.format) {
                 work.d1 = timer.read_us();
@@ -285,7 +285,7 @@ void ReceiverIR::isr_rise(void) {
                  * Set timeout for tail detection automatically.
                  */
                 timeout.detach();
-                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_SONY * 4);
+                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_SONY * 1);
 #endif
             }
             break;
