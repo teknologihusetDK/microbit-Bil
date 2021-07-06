@@ -80,7 +80,7 @@ namespace Mbit_IR {
   void monitorIR(){
     while(1){
       while(rx->getState() != ReceiverIR::Received){
-        uBit.sleep(70);
+        uBit.sleep(80);
       }
       onReceivable();
     }
