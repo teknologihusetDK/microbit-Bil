@@ -80,7 +80,7 @@ namespace Mbit_IR {
   void monitorIR(){
     while(1){
       while(rx->getState() != ReceiverIR::Received){
-        uBit.sleep(5);
+        uBit.sleep(60);
       }
       onReceivable();
     }
@@ -89,7 +89,7 @@ namespace Mbit_IR {
   //%
   void init(Pins pin){
     rx = new ReceiverIR((PinName)pin);
-    tsb.start(); //interrupt timer for debounce
+    //tsb.start(); //interrupt timer for debounce
     create_fiber(monitorIR);
   }
 
