@@ -272,7 +272,7 @@ void ReceiverIR::isr_rise(void) {
                  * By a model only?
                  * Please check a specification of your remote controller if you find a problem.
                  */
-                if (8 <= data.bitcount) {
+                if (2 <= data.bitcount) {
                     work.state = Received;
                     work.c1 = -1;
                     work.c2 = -1;
