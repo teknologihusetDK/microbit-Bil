@@ -188,7 +188,7 @@ void ReceiverIR::isr_fall(void) {
                  * Set timeout for tail detection automatically.
                  */
                 timeout.detach();
-                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_NEC * 5);
+                timeout.attach_us(this, &ReceiverIR::isr_timeout, RemoteIR::TUS_NEC * 10); //Here
 #endif
             } else if (RemoteIR::AEHA == data.format) {
                 work.d2 = timer.read_us();
